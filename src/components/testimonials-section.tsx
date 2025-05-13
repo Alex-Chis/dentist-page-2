@@ -1,4 +1,3 @@
-
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 
@@ -6,30 +5,39 @@ const TestimonialsSection = () => {
   const testimonials = [
     {
       name: "Sophie Moore",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
-      quote: "I've always been anxious about dental visits, but this clinic made me feel completely at ease. The staff is professional and caring.",
+      image:
+        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      quote:
+        "I've always been anxious about dental visits, but this clinic made me feel completely at ease. The staff is professional and caring.",
     },
     {
       name: "Morgan McKinley",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
-      quote: "The care I received was exceptional. Dr. Young took the time to explain everything and made sure I was comfortable throughout my procedure.",
+      image:
+        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      quote:
+        "The care I received was exceptional. Dr. Young took the time to explain everything and made sure I was comfortable throughout my procedure.",
     },
     {
       name: "Lily Wood",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
-      quote: "My family has been coming here for years. The quality of care and attention to detail is outstanding. Highly recommend!",
-    }
+      image:
+        "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+      quote:
+        "My family has been coming here for years. The quality of care and attention to detail is outstanding. Highly recommend!",
+    },
   ];
 
   return (
-    <section className="py-16 bg-white">
+    <section id="testimonials" className="py-16 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">
-            See what our over 1,000 happy<br />customers have to say
+            See what our over 1,000 happy
+            <br />
+            customers have to say
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Our patients' experiences speak for themselves. We're proud to have earned the trust and satisfaction of so many in our community.
+            Our patients' experiences speak for themselves. We're proud to have
+            earned the trust and satisfaction of so many in our community.
           </p>
         </div>
 
@@ -49,7 +57,10 @@ const TestimonialsSection = () => {
         </div>
 
         <div className="text-center">
-          <Button variant="outline" className="border-dentist-purple text-dentist-purple hover:bg-dentist-purple hover:text-white">
+          <Button
+            variant="outline"
+            className="border-dentist-purple text-dentist-purple hover:bg-dentist-purple hover:text-white"
+          >
             See all testimonials
           </Button>
         </div>
